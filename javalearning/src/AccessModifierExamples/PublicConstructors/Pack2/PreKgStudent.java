@@ -5,7 +5,7 @@ import AccessModifierExamples.PublicConstructors.Pack1.Student;
 public class PreKgStudent extends Student {
 	public PreKgStudent() {
 
-		super();// We cannot call Student Constructors as it is Protected and works fine
+		super();// We cannot call Student Constructors as it is Default and will not work in this case
 	}
 
 }
