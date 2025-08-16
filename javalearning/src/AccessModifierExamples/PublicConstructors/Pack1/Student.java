@@ -2,7 +2,7 @@ package AccessModifierExamples.PublicConstructors.Pack1;
 
 public class Student {
 
-	private Student() {
+	protected Student() {
 
 		System.out.println("default contstructors");
 	}
